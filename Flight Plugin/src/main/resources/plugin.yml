@@ -1,0 +1,10 @@
+name: PluginTeste
+version: '${project.version}'
+main: com.henrique.testeplugin.Main
+api-version: 1.19
+authors: [ Henrique ]
+description: Teste de plugin joia
+commands:
+  fly:
+    description: Esse comando te permite criar asas.
+    aliases: FLY, flY, FlY, FLy, fLy, fLY
